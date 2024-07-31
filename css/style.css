@@ -1,7 +1,7 @@
 body {
   font-family: 'Raleway', sans-serif;
   color: #0c0c0c;
-  background-color: #ffffff;
+  background-color: #121212;
 }
 
 .layout_margin {
@@ -34,7 +34,7 @@ body {
 
 .heading_container h2 {
   font-weight: bold;
-  color: #1d1e31;
+  color: #FFFFFF;
   text-align: center;
   position: relative;
   padding-bottom: 10px;
@@ -44,7 +44,7 @@ body {
   content: "";
   width: 100px;
   height: 1px;
-  background-color: #8547ca;
+  background-color: #590799;
   position: absolute;
   left: 50%;
   -webkit-transform: translateX(-50%);
@@ -60,8 +60,8 @@ body {
 .hero_area {
   height: 100vh;
   position: relative;
-  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #f2f7fd), color-stop(45%, #1d1e31));
-  background: linear-gradient(to right, #f2f7fd 50%, #1d1e31 45%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #121212), color-stop(45%, #1F1F1F));
+  background: linear-gradient(to right, #121212 50%, #1F1F1F 45%);
 }
 
 .sub_page .hero_area {
@@ -230,7 +230,7 @@ a:focus {
   text-transform: uppercase;
   font-size: 24px;
   font-weight: 700;
-  color: #8547ca;
+  color: #590799;
   margin-top: 5px;
 }
 
@@ -294,24 +294,24 @@ a:focus {
 .slider_section .detail-box h1 {
   text-transform: uppercase;
   font-weight: bold;
-  color: #8547ca;
+  color: #590799;
   font-size: 5.5rem;
 }
 
 .slider_section .detail-box a {
   display: inline-block;
   padding: 10px 60px;
-  background-color: #1d1e31;
-  color: #fefdfc;
+  background-color: #590799;
+  color: #E5E5E5;
   border-radius: 0;
-  border: 1px solid #1d1e31;
+  border: 1px solid #590799;
   text-transform: uppercase;
   margin-top: 35px;
 }
 
 .slider_section .detail-box a:hover {
   background-color: transparent;
-  color: #1d1e31;
+  color: #590799;
 }
 
 .slider_section .img-box img {
@@ -331,14 +331,14 @@ a:focus {
 }
 
 .slider_section .carousel-control-prev {
-  background-color: #1d1e31;
+  background-color: #FFFFFF55;
   top: 80px;
   background-image: url(../images/left-arrow.png);
   background-position: 14px center;
 }
 
 .slider_section .carousel-control-next {
-  background-color: #f2f7fd;
+  background-color: #FFFFFF55;
   top: initial;
   bottom: 150px;
   background-image: url(../images/right-arrow.png);
@@ -361,21 +361,21 @@ a:focus {
   margin: 0;
   width: 30px;
   height: 30px;
-  background-color: #1d1e31;
+  background-color: #1F1F1F;
   opacity: 1;
 }
 
 .slider_section .carousel-indicators li.active {
-  background-color: #8547ca;
+  background-color: #590799;
 }
 
 .feature_section {
-  background-color: #fafafa;
+  background-color: #121212;
   font-family: 'Poppins', sans-serif;
 }
 
 .feature_section .box {
-  background-color: #fcfcfd;
+  background-color: #1F1F1F;
   padding: 15px;
   margin: 45px 0;
 }
@@ -396,12 +396,13 @@ a:focus {
 .feature_section .box .head-box .img-box svg {
   width: 50px;
   height: auto;
-  fill: #8547ca;
+  fill: #590799;
 }
 
 .feature_section .box .head-box h6 {
   font-weight: bold;
   font-size: 18px;
+  color: #FFFFFF;
 }
 
 .feature_section .box .detail-box {
@@ -411,40 +412,42 @@ a:focus {
 .feature_section .box .detail-box p {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
+  color: #FFFFFF;
 }
 
 .feature_section .box:hover {
-  background-color: #8547ca;
-  color: #fefdfc;
+  background-color: #590799;
+  color: #E5E5E5;
 }
 
 .feature_section .box:hover .head-box .img-box svg {
-  fill: #fefdfc;
+  fill: #E5E5E5;
 }
 
 .feature_section a {
   display: inline-block;
   padding: 10px 40px;
-  background-color: #8c60bd;
-  color: #fefdfc;
+  background-color: #590799;
+  color: #E5E5E5;
   border-radius: 0;
-  border: 1px solid #8c60bd;
+  border: 1px solid #590799;
 }
 
 .feature_section a:hover {
   background-color: transparent;
-  color: #8c60bd;
+  color: #590799;
 }
 
 .download_section {
   font-family: 'Poppins', sans-serif;
+  background-color: #121212;
 }
 
 .download_section .box {
   background-color: #333456;
   padding: 15px;
   margin: 45px 0;
-  color: #fefdfc;
+  color: #E5E5E5;
 }
 
 .download_section .box .head-box {
@@ -460,7 +463,7 @@ a:focus {
   margin-right: 15px;
   width: 60px;
   height: 60px;
-  border: 1px solid #fefdfc;
+  border: 1px solid #E5E5E5;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -479,6 +482,7 @@ a:focus {
 .download_section .box .head-box h6 {
   font-weight: bold;
   font-size: 18px;
+  color: #FFFFFF;
 }
 
 .download_section .box .detail-box {
@@ -488,28 +492,29 @@ a:focus {
 .download_section .box .detail-box p {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
+  color: #FFFFFF;
 }
 
 .download_section .btn-1 {
   display: inline-block;
   padding: 10px 40px;
-  background-color: #8c60bd;
-  color: #fefdfc;
+  background-color: #590799;
+  color: #E5E5E5;
   border-radius: 0;
-  border: 1px solid #8c60bd;
+  border: 1px solid #590799;
   margin-top: 25px;
 }
 
 .download_section .btn-1:hover {
   background-color: transparent;
-  color: #8c60bd;
+  color: #590799;
 }
 
 .download_section .btn-2 {
   display: inline-block;
   padding: 10px 40px;
   background-color: #323559;
-  color: #fefdfc;
+  color: #E5E5E5;
   border-radius: 0;
   border: 1px solid #323559;
   margin-top: 25px;
@@ -536,7 +541,8 @@ a:focus {
 }
 
 .about_section {
-  background-image: url(../images/about-bg.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)),
+    url("../images/about-bg.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -571,19 +577,23 @@ a:focus {
 .about_section .detail-box.b-1 a {
   display: inline-block;
   padding: 10px 40px;
-  background-color: #8c60bd;
-  color: #fefdfc;
+  background-color: #590799;
+  color: #E5E5E5;
   border-radius: 0;
-  border: 1px solid #8c60bd;
+  border: 1px solid #590799;
 }
 
 .about_section .detail-box.b-1 a:hover {
   background-color: transparent;
-  color: #8c60bd;
+  color: #590799;
+}
+
+.about_section .detail-box p {
+  color: #FFFFFF;
 }
 
 .subscribe_section {
-  background-color: #f2f7fd;
+  background-color: #121212;
 }
 
 .subscribe_section form {
@@ -610,17 +620,17 @@ a:focus {
   text-transform: uppercase;
   display: inline-block;
   padding: 0 0;
-  background-color: #8c60bd;
-  color: #fefdfc;
+  background-color: #590799;
+  color: #E5E5E5;
   border-radius: 0;
-  border: 1px solid #8c60bd;
+  border: 1px solid #590799;
   font-weight: bold;
   line-height: 50px;
 }
 
 .subscribe_section form button:hover {
   background-color: transparent;
-  color: #8c60bd;
+  color: #590799;
 }
 
 .client_section .client_container .client-id {
@@ -643,7 +653,7 @@ a:focus {
 }
 
 .client_section .client_container .client-id .name h6 {
-  color: #8547ca;
+  color: #590799;
   margin: 5px 0;
   font-weight: bold;
 }
@@ -652,23 +662,27 @@ a:focus {
   margin-top: 20px;
 }
 
+.client_section .client_container .client-detail p {
+  color: #FFFFFF
+}
+
 .client_section .client_container a {
   display: inline-block;
   padding: 10px 40px;
-  background-color: #8c60bd;
-  color: #fefdfc;
+  background-color: #590799;
+  color: #E5E5E5;
   border-radius: 0;
-  border: 1px solid #8c60bd;
+  border: 1px solid #590799;
 }
 
 .client_section .client_container a:hover {
   background-color: transparent;
-  color: #8c60bd;
+  color: #590799;
 }
 
 /* contact section */
 .contact_section {
-  background-color: #f2f7fd;
+  background-color: #121212;
 }
 
 .contact_section h2 {
@@ -716,7 +730,7 @@ a:focus {
 
 .contact_form-container button {
   border: none;
-  background-color: #8c60bd;
+  background-color: #590799;
   color: #fff;
   font-size: 15px;
   padding: 15px 45px;
@@ -763,7 +777,7 @@ a:focus {
 .info_logo-box h2 {
   font-weight: bold;
   padding: 5px 35px;
-  border-bottom: 1.5px solid #8547ca;
+  border-bottom: 1.5px solid #590799;
 }
 
 .info_section ul {
@@ -780,7 +794,7 @@ a:focus {
 }
 
 .info_section ul li a:hover {
-  color: #8547ca;
+  color: #590799;
 }
 
 .info_section .form_container input {
@@ -806,7 +820,7 @@ a:focus {
 }
 
 .info_section .form_container button {
-  background-color: #8c60bd;
+  background-color: #590799;
   border: none;
   outline: none;
   color: #fff;
@@ -842,17 +856,17 @@ a:focus {
 /* end info section */
 /* footer section*/
 .footer_section {
-  background-color: #8547ca;
+  background-color: #590799;
   padding: 20px;
 }
 
 .footer_section p {
   margin: 0;
   text-align: center;
-  color: #fefdfc;
+  color: #E5E5E5;
 }
 
 .footer_section a {
-  color: #fefdfc;
+  color: #E5E5E5;
 }
 /*# sourceMappingURL=style.css.map */

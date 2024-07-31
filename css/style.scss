@@ -1,7 +1,7 @@
-$white: #fefdfc;
+$white: #E5E5E5;
 $black: #050505;
-$colorPrimary: #8547ca;
-$btnColor:#8c60bd;
+$colorPrimary: #590799;
+$btnColor:#590799;
 
 @mixin main-font {
   font-family: 'Raleway', sans-serif;
@@ -72,7 +72,7 @@ body {
 .heading_container {
   h2 {
     font-weight: bold;
-    color: #1d1e31;
+    color: #FFFFFF;
     text-align: center;
     position: relative;
     padding-bottom: 10px;
@@ -101,9 +101,8 @@ body {
   height: 100vh;
   position: relative;
   background: linear-gradient(to right,
-      #f2f7fd 50%,
-      #1d1e31 45%,
-
+      #121212 50%,
+      #1F1F1F 45%,
     );
 }
 
@@ -273,7 +272,7 @@ a:focus {
   text-transform: uppercase;
   font-size: 24px;
   font-weight: 700;
-  color: #8547ca;
+  color: #590799;
   margin-top: 5px;
 
 }
@@ -339,7 +338,7 @@ a:focus {
     }
 
     a {
-      @include hero_btn(#1d1e31, $white, 10px, 60px, 0);
+      @include hero_btn(#FFFFFF, $white, 10px, 60px, 0);
       text-transform: uppercase;
       margin-top: 35px;
     }
@@ -363,14 +362,14 @@ a:focus {
   }
 
   .carousel-control-prev {
-    background-color: #1d1e31;
+    background-color: #FFFFFF55;
     top: 80px;
     background-image: url(../images/left-arrow.png);
     background-position: 14px center;
   }
 
   .carousel-control-next {
-    background-color: #f2f7fd;
+    background-color: #121212;
     top: initial;
     bottom: 150px;
     background-image: url(../images/right-arrow.png);
@@ -388,11 +387,11 @@ a:focus {
       margin: 0;
       width: 30px;
       height: 30px;
-      background-color: #1d1e31;
+      background-color: #1F1F1F;
       opacity: 1;
 
       &.active {
-        background-color: #8547ca;
+        background-color: #590799;
       }
     }
   }
@@ -403,11 +402,11 @@ a:focus {
 // feature section
 
 .feature_section {
-  background-color: #fafafa;
+  background-color: #121212;
   @include secondary-font();
 
   .box {
-    background-color: #fcfcfd;
+    background-color: #1F1F1F;
     padding: 15px;
     margin: 45px 0;
 
@@ -428,6 +427,7 @@ a:focus {
       h6 {
         font-weight: bold;
         font-size: 18px;
+        color: #FFFFFF;
       }
     }
 
@@ -437,6 +437,7 @@ a:focus {
       p {
         margin: 0;
         @include third-font();
+        color: #FFFFFF;
       }
     }
 
@@ -495,6 +496,7 @@ a:focus {
       h6 {
         font-weight: bold;
         font-size: 18px;
+        color: #FFFFFF;
       }
     }
 
@@ -504,6 +506,7 @@ a:focus {
       p {
         margin: 0;
         @include third-font();
+        color: #FFFFFF;
       }
     }
 
@@ -534,7 +537,8 @@ a:focus {
 
 // about section
 .about_section {
-  background-image: url(../images/about-bg.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)),
+    url("../images/about-bg.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -556,6 +560,10 @@ a:focus {
         @include hero_btn($btnColor, $white, 10px, 40px, 0);
       }
     }
+
+    .p {
+      color: #FFFFFF;
+    }
   }
 }
 
@@ -565,7 +573,7 @@ a:focus {
 // subscribe section
 
 .subscribe_section {
-  background-color: #f2f7fd;
+  background-color: #121212;
 
   form {
     display: flex;
@@ -628,6 +636,9 @@ a:focus {
 
     .client-detail {
       margin-top: 20px;
+      p {
+        color: #FFFFFF
+      }
     }
 
     a {
@@ -641,7 +652,7 @@ a:focus {
 /* contact section */
 
 .contact_section {
-  background-color: #f2f7fd;
+  background-color: #121212;
 
   h2 {
     font-size: 26px;
